@@ -1,0 +1,67 @@
+body {
+    background-image: url('https://curemagazine.s3.amazonaws.com/_media/_thumb/marijuana-smoke.jpg');
+}
+.jumbotron {
+    background-image: url('https://image.shutterstock.com/image-photo/marijuana-leaves-cannabis-plants-beautiful-260nw-1384282265.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-top: 50px;
+    
+}
+h1 {
+    color: darkkhaki;
+    transform: skew(-30deg);
+  
+}
+h2 {
+    color: darkkhaki;
+    text-align: center;
+    text-decoration: underline;
+}
+.lead {
+    color: darkkhaki;
+    margin-left: 0;
+}
+
+p {
+    color: floralwhite;
+    margin-left: 20%;
+}
+
+#row-1 {
+    margin-left: 70px;
+}
+footer {
+    width: 100%;
+    height: 5vh;
+    background-color: darkslategray;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    z-index: 1;
+}
+span {
+    color: wheat;
+    margin-top: 10px;
+    
+}
+.navbar {
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    top: 0;
+}
+.desc {
+    margin-left: 15px;
+}
+.desc-1 {
+    margin-left: 55px;
+}
+#gdp-btn {
+    margin-left: 20%;
+}
+
+
+
+
+
