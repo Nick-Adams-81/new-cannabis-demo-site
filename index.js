@@ -9,12 +9,20 @@ const plat = document.querySelector("#platinum-btn")
 
 // GDP btn functionality.
 gdp.addEventListener("click", function() {
-    alert("GDP added to cart")
+    Swal.fire(
+        'GDP added to cart!',
+        'Weed on the way',
+        'success'
+      )
 })
 
 // Bubba kush btn functionality.
 bubba.addEventListener("click", function() {
-    alert("Bubba kush added to cart")
+    Swal.fire(
+        'Bubba Kush added to cart!',
+        'Weed on the way',
+        'success'
+      )
 })
 
 // Platinum btn functionality.
