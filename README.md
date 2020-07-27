@@ -1,4 +1,4 @@
-# new-cannabis-demo-site
+# Cannabis-demo-site
 
 This is a demo site for a cannabis delivery business. It is intended only 
 as a mock up currently and not for deployment yet, future development may 
