@@ -24,6 +24,10 @@ change the scope to a deployed site with a fully integrated back end.
 
 * node.js
 
+* MySQL or Mongoose
+
+* sequelize or MongoDB
+
 * either React.js, angular.js, or vue.js
 
 # Cannabis demo authored by:
