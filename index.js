@@ -2,6 +2,8 @@
 const gdp = document.querySelector("#gdp-btn")
 const bubba = document.querySelector("#bubba-btn")
 const plat = document.querySelector("#platinum-btn")
+const bitch = document.querySelector("#bitch-btn")
+const fuck = document.querySelector("#fuck-btn")
 
 // Adding simple event listeners to our buttons.
 // These are for a demonstration for now, more 
@@ -35,4 +37,20 @@ plat.addEventListener("click", function() {
 
       //imageUrl: "https://darkheartnursery.com/wp-content/uploads/2014/07/lf_platinum_OG_9633.jpg",
      
+})
+// Bitch btn functionality
+bitch.addEventListener("click", function() {
+    Swal.fire(
+        'Bitch added to cart!',
+        'Weed on the way',
+        'success'
+      )
+})
+// Fuck btn functionality
+fuck.addEventListener("click", function() {
+    Swal.fire(
+        'Fuck added to cart!',
+        'Weed on the way',
+        'success'
+      )
 })
