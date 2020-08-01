@@ -28,8 +28,8 @@ app.use.apply(express.json())
 
 // Required routes
 // ===================================================================
-require("./routes/html-routes.js") (app)
-require("./routes/api-routes.js") (app)
+require("./routes/html-routes.js")(app)
+require("./routes/api-routes.js")(app)
 
 
 // Syncing our DB and logging a message for the user upon success
@@ -37,9 +37,9 @@ require("./routes/api-routes.js") (app)
 // Drop & rebuild tables use { force: true }
 
 db.sequelize.sync()
-.then (function() {
-    app.listen(PORT, function() {
-        console.log("==> Listening on port %s. Visit http://localhost:%s in your browser", PORT, PORT)
+    .then(function () {
+        app.listen(PORT, function () {
+            console.log("==> Listening on port %s. Visit http://localhost:%s in your browser", PORT, PORT)
+        })
     })
-})
 
